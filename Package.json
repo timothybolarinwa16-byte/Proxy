@@ -1,0 +1,17 @@
+{
+  "name": "binance-proxy",
+  "version": "1.0.0",
+  "description": "Tiny CORS-safe proxy for Binance public API, used by the Market Structure Inspector tool.",
+  "type": "module",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
